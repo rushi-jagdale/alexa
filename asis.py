@@ -250,13 +250,13 @@ time.sleep(1)
 
 person_obj = person()
 asis_obj = asis()
-asis_obj.name = 'kiki'
+asis_obj.name = 'Alexa'
 person_obj.name = ""
 engine = pyttsx3.init()
 
 
 while(1):
-    voice_data = record_audio("Recording") # get the voice input
+    voice_data = record_audio("") # get the voice input
     print("Done")
     print("Q:", voice_data)
     respond(voice_data) # respond
